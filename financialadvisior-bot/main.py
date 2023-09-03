@@ -1,9 +1,16 @@
-from textbase import bot, Message
-from textbase.models import OpenAI
 from typing import List
+from textbase.models import OpenAI
+from textbase import bot, Message
+
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+api_key = os.getenv("API_KEY")
+
 
 # Load your OpenAI API key
-OpenAI.api_key = "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"
+OpenAI.api_key = api_key
 
 # Prompt for GPT-3.5 Turbo
 SYSTEM_PROMPT = """You are chatting with a Financial Advisor. Feel free to ask questions or seek advice about your finances, investments, or budgeting.
