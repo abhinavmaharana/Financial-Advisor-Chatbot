@@ -47,4 +47,4 @@ Now go to the link in blue color which is shown on the CLI and you will be able 
 
 ## Demo
 
-You can try out a demo of this project by running it yourself at [Demo](https://bot.textbase.ai/abhinavmaharana.23/financial-advisor-bot).
+You can try out a demo of this project by running it yourself at [Demo](https://bot.textbase.ai/abhinavmaharana.23/finance-advisor-bot).
